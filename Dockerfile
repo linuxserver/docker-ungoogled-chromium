@@ -36,7 +36,7 @@ RUN \
     "https://github.com/linuxserver/proot-apps/raw/master/metadata/img/ungoogledchromium.svg" && \
   if [ -z ${UGC_VERSION+x} ]; then \
     UGC_VERSION=$(curl -sX GET "https://api.github.com/repos/ungoogled-software/ungoogled-chromium-portablelinux/releases/latest" \
-      | awk '/tag_name/{print $4;exit}' FS='[""]' | sed 's|^Audacity-||'); \
+      | awk '/tag_name/{print $4;exit}' FS='[""]'); \
   fi && \
   curl -o \
     /tmp/ugc.tar.xz -L \
