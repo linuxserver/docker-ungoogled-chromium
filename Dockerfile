@@ -19,7 +19,7 @@ RUN \
     /usr/share/icons/hicolor/192x192/apps/ && \
   cp \
     /kclient/public/icon.png \
-    /usr/share/icons/hicolor/192x192/apps/ && \
+    /usr/share/icons/hicolor/192x192/apps/ungoogled-chromium-logo.png && \
   echo "**** install packages ****" && \
   apt-get update && \
   apt-get install -y \
@@ -30,10 +30,8 @@ RUN \
     libxcomposite1 \
     libxdamage1 \
     libxkbcommon0 \
+    thunar \
     xz-utils && \
-  curl -o \
-    /usr/share/icons/hicolor/scalable/apps/ungoogledchromium.svg -L \
-    "https://github.com/linuxserver/proot-apps/raw/master/metadata/img/ungoogledchromium.svg" && \
   if [ -z ${UGC_VERSION+x} ]; then \
     UGC_VERSION=$(curl -sX GET "https://api.github.com/repos/ungoogled-software/ungoogled-chromium-portablelinux/releases/latest" \
       | awk '/tag_name/{print $4;exit}' FS='[""]'); \
