@@ -905,7 +905,7 @@ libnpmversion                                                                 6.
 libnpth0                                                                      1.6-3                                               deb                          
 libnsl2                                                                       1.3.0-2                                             deb                          
 libnspr4                                                                      2:4.35-1                                            deb                          
-libnss3                                                                       2:3.87.1-1                                          deb                          
+libnss3                                                                       2:3.87.1-1+deb12u1                                  deb                          
 libntfs-3g89                                                                  1:2022.10.3-1+deb12u2                               deb                          
 libnuma1                                                                      2.0.16-1                                            deb                          
 libobrender32v5                                                               3.6.1-10                                            deb                          
