@@ -6,6 +6,7 @@ project_url: "https://github.com/ungoogled-software/ungoogled-chromium"
 project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ungoogled-chromium-logo.png"
 project_blurb: "[Ungoogled Chromium]({{ project_url }}) is Google Chromium, sans dependency on Google web services."
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
+project_categories: "Web Browser"
 project_categories: "Web"
 project_blurb_optional_extras_enabled: false
 # supported architectures
