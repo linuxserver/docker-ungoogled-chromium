@@ -105,4 +105,5 @@ init_diagram: |
   "ungoogled-chromium:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "03.04.25:", desc: "Update chromium launch options to improve performance."}
   - {date: "25.07.24:", desc: "Initial release."}
