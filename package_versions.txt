@@ -983,9 +983,9 @@ libpng16-16                                                                   1.
 libpocketsphinx3                                                              0.8+5prealpha+1-15                      deb                         
 libpolkit-agent-1-0                                                           122-3                                   deb                         
 libpolkit-gobject-1-0                                                         122-3                                   deb                         
-libpoppler-cpp0v5                                                             22.12.0-2+b1                            deb                         
-libpoppler-glib8                                                              22.12.0-2+b1                            deb                         
-libpoppler126                                                                 22.12.0-2+b1                            deb                         
+libpoppler-cpp0v5                                                             22.12.0-2+deb12u1                       deb                         
+libpoppler-glib8                                                              22.12.0-2+deb12u1                       deb                         
+libpoppler126                                                                 22.12.0-2+deb12u1                       deb                         
 libpopt0                                                                      1.19+dfsg-1                             deb                         
 libpostproc56                                                                 7:5.1.6-0+deb12u1                       deb                         
 libproc2-0                                                                    2:4.0.2-3                               deb                         
@@ -1263,7 +1263,7 @@ pinentry-curses                                                               1.
 policykit-1-gnome                                                             0.105-8                                 deb                         
 polkitd                                                                       122-3                                   deb                         
 poppler-data                                                                  0.4.12-1                                deb                         
-poppler-utils                                                                 22.12.0-2+b1                            deb                         
+poppler-utils                                                                 22.12.0-2+deb12u1                       deb                         
 postcss-selector-parser                                                       6.1.0                                   npm                         
 printer-driver-cups-pdf                                                       3.0.1-14                                deb                         
 proc-log                                                                      3.0.0                                   npm                         
