@@ -76,7 +76,7 @@ catatonit                                                                     0.
 chalk                                                                         4.1.2                                   npm                         
 chalk                                                                         5.3.0                                   npm                         
 chownr                                                                        2.0.0                                   npm                         
-chrome                                                                        138.0.7204.49                           binary                      
+chrome                                                                        138.0.7204.96                           binary                      
 ci-info                                                                       4.0.0                                   npm                         
 cidr-regex                                                                    4.1.1                                   npm                         
 clean-stack                                                                   2.2.0                                   npm                         
