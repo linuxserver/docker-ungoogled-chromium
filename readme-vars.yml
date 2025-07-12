@@ -21,7 +21,7 @@ param_volumes:
   - {vol_path: "/config", vol_host_path: "/path/to/config", desc: "Users home directory in the container, stores local files and settings"}
 param_usage_include_ports: true
 param_ports:
-  - {external_port: "3000", internal_port: "3000", port_desc: "Ungoogled Chromium desktop gui."}
+  - {external_port: "3000", internal_port: "3000", port_desc: "HTTP Ungoogled Chromium desktop gui, must be proxied."}
   - {external_port: "3001", internal_port: "3001", port_desc: "HTTPS Ungoogled Chromium desktop gui."}
 custom_params:
   - {name: "shm-size", name_compose: "shm_size", value: "1gb", desc: "This is needed for any modern website to function like youtube."}
@@ -32,19 +32,16 @@ opt_param_env_vars:
 opt_security_opt_param: true
 opt_security_opt_param_vars:
   - {run_var: "seccomp=unconfined", compose_var: "seccomp:unconfined", desc: "For Docker Engine only, many modern gui apps need this to function on older hosts as syscalls are unknown to Docker. Ungoogled Chromium runs in no-sandbox test mode without it."}
-# Kasm blurb settings
-kasm_blurb: true
+# Selkies blurb settings
+selkies_blurb: true
 show_nvidia: true
-external_http_port: "3000"
-external_https_port: "3001"
-noto_fonts: "fonts-noto-cjk"
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
   The application can be accessed at:
 
-  * http://yourhost:3000/
   * https://yourhost:3001/
+
 # init diagram
 init_diagram: |
   "ungoogled-chromium:latest": {
@@ -107,5 +104,6 @@ init_diagram: |
   "ungoogled-chromium:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "12.07.25:", desc: "Rebase to Selkies, HTTPS IS NOW REQUIRED."}
   - {date: "03.04.25:", desc: "Update chromium launch options to improve performance."}
   - {date: "25.07.24:", desc: "Initial release."}
