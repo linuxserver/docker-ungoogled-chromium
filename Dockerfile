@@ -38,7 +38,7 @@ RUN \
   fi && \
   curl -o \
     /tmp/ugc.tar.xz -L \
-    "https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/${UGC_VERSION}/ungoogled-chromium_${UGC_VERSION}_linux.tar.xz" && \
+    "https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/${UGC_VERSION}/ungoogled-chromium-${UGC_VERSION}-x86_64_linux.tar.xz" && \
   mkdir -p \
     /opt/ungoogledchromium && \
   tar xf \
