@@ -25,7 +25,7 @@ bsdutils                                                                      1:
 ca-certificates                                                               20230311+deb12u1                           deb                         
 catatonit                                                                     0.1.7-1+b1                                 deb                         
 cffi                                                                          1.17.1                                     python                      
-chrome                                                                        139.0.7258.138                             binary                      
+chrome                                                                        139.0.7258.154                             binary                      
 cli                                                                           UNKNOWN                                    binary                      
 cli-32                                                                        UNKNOWN                                    binary                      
 cli-64                                                                        UNKNOWN                                    binary                      
@@ -589,8 +589,8 @@ libaudit1                                                                     1:
 libavahi-client3                                                              0.8-10+deb12u1                             deb                         
 libavahi-common-data                                                          0.8-10+deb12u1                             deb                         
 libavahi-common3                                                              0.8-10+deb12u1                             deb                         
-libavcodec59                                                                  7:5.1.6-0+deb12u1                          deb                         
-libavutil57                                                                   7:5.1.6-0+deb12u1                          deb                         
+libavcodec59                                                                  7:5.1.7-0+deb12u1                          deb                         
+libavutil57                                                                   7:5.1.7-0+deb12u1                          deb                         
 libbdplus0                                                                    0.2.0-3                                    deb                         
 libbinutils                                                                   2.40-2                                     deb                         
 libblkid1                                                                     2.38.1-5+deb12u3                           deb                         
@@ -858,7 +858,7 @@ libstdc++-12-dev                                                              12
 libstdc++6                                                                    12.2.0-14+deb12u1                          deb                         
 libstemmer0d                                                                  2.2.0-2                                    deb                         
 libsvtav1enc1                                                                 1.4.1+dfsg-1                               deb                         
-libswresample4                                                                7:5.1.6-0+deb12u1                          deb                         
+libswresample4                                                                7:5.1.7-0+deb12u1                          deb                         
 libsystemd-shared                                                             252.38-1~deb12u1                           deb                         
 libsystemd0                                                                   252.38-1~deb12u1                           deb                         
 libtasn1-6                                                                    4.19.0-2+deb12u1                           deb                         
@@ -879,7 +879,7 @@ libubsan1                                                                     12
 libuchardet0                                                                  0.0.7-1                                    deb                         
 libudev1                                                                      252.38-1~deb12u1                           deb                         
 libudfread0                                                                   1.1.2-1                                    deb                         
-libudisks2-0                                                                  2.9.4-4+deb12u1                            deb                         
+libudisks2-0                                                                  2.9.4-4+deb12u2                            deb                         
 libunbound8                                                                   1.17.1-2+deb12u2                           deb                         
 libunistring2                                                                 1.0-2                                      deb                         
 libunwind8                                                                    1.6.2-3                                    deb                         
@@ -1103,11 +1103,11 @@ thunar-data                                                                   4.
 thunar-volman                                                                 4.18.0-1                                   deb                         
 tumbler                                                                       4.18.0-1                                   deb                         
 tumbler-common                                                                4.18.0-1                                   deb                         
-typing-extensions                                                             4.14.1                                     python                      
+typing-extensions                                                             4.15.0                                     python                      
 tzdata                                                                        2025b-0+deb12u1                            deb                         
 ucf                                                                           3.0043+nmu1+deb12u1                        deb                         
 udev                                                                          252.38-1~deb12u1                           deb                         
-udisks2                                                                       2.9.4-4+deb12u1                            deb                         
+udisks2                                                                       2.9.4-4+deb12u2                            deb                         
 usr-is-merged                                                                 37~deb12u1                                 deb                         
 util-linux                                                                    2.38.1-5+deb12u3                           deb                         
 util-linux-extra                                                              2.38.1-5+deb12u3                           deb                         
