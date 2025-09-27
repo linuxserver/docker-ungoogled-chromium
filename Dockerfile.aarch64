@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/baseimage-selkies:debiantrixie
+FROM ghcr.io/linuxserver/baseimage-selkies:arm64v8-debiantrixie
 
 # set version label
 ARG BUILD_DATE
@@ -39,7 +39,7 @@ RUN \
     | awk '/tag_name/{print $4;exit}' FS='[""]'); \
   fi && \
   RELEASE_URL=$(curl -sX GET "https://api.github.com/repos/ungoogled-software/ungoogled-chromium-portablelinux/releases/latest"| awk '/url/{print $4;exit}' FS='[""]') && \
-  DOWNLOAD_URL=$(curl -sX GET "${RELEASE_URL}" | awk '/browser_download_url.*-x86_64_linux.tar.xz/{print $4;exit}' FS='[""]') && \
+  DOWNLOAD_URL=$(curl -sX GET "${RELEASE_URL}" | awk '/browser_download_url.*-arm64_linux.tar.xz/{print $4;exit}' FS='[""]') && \
   curl -o \
     /tmp/ugc.tar.xz -L \
     "${DOWNLOAD_URL}" && \
