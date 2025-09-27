@@ -11,6 +11,7 @@ project_blurb_optional_extras_enabled: false
 # supported architectures
 available_architectures:
   - {arch: "{{ arch_x86_64 }}", tag: "latest"}
+  - {arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
 # development version
 development_versions: false
 # container parameters
@@ -108,6 +109,7 @@ init_diagram: |
   "ungoogled-chromium:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "27.09.25:", desc: "Multi arch arm64 support added."}
   - {date: "22.09.25:", desc: "Rebase to Debian Trixie."}
   - {date: "12.07.25:", desc: "Rebase to Selkies, HTTPS IS NOW REQUIRED."}
   - {date: "03.04.25:", desc: "Update chromium launch options to improve performance."}

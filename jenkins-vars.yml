@@ -6,6 +6,13 @@ external_type: github_stable
 release_type: stable
 release_tag: latest
 ls_branch: master
+external_artifact_check: |
+  assets=$(curl -u "${{ '{{' }} secrets.CR_USER {{ '}}' }}:${{ '{{' }} secrets.CR_PAT {{ '}}' }}" -sX GET "https://api.github.com/repos/ungoogled-software/ungoogled-chromium-portablelinux/releases/tags/${EXT_RELEASE}" | jq -r '.assets[].browser_download_url')
+  if grep -q "arm64_linux.tar.xz" <<< "${assets}"; then
+    artifacts_found="true"
+  else
+    artifacts_found="false"
+  fi
 repo_vars:
   - EXT_GIT_BRANCH = 'master'
   - EXT_USER = 'ungoogled-software'
@@ -18,7 +25,7 @@ repo_vars:
   - DEV_DOCKERHUB_IMAGE = 'lsiodev/ungoogled-chromium'
   - PR_DOCKERHUB_IMAGE = 'lspipepr/ungoogled-chromium'
   - DIST_IMAGE = 'ubuntu'
-  - MULTIARCH = 'false'
+  - MULTIARCH = 'true'
   - CI = 'true'
   - CI_WEB = 'true'
   - CI_PORT = '3001'
