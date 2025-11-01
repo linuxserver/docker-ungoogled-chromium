@@ -27,7 +27,7 @@ bsdutils                                                                      1:
 ca-certificates                                                               20250419                                deb                         
 catatonit                                                                     0.2.1-2+b3                              deb                         
 cffi                                                                          2.0.0                                   python                      
-chrome                                                                        141.0.7390.122                          binary                      
+chrome                                                                        142.0.7444.59                           binary                      
 cli                                                                           UNKNOWN                                 binary                      
 cli-32                                                                        UNKNOWN                                 binary                      
 cli-64                                                                        UNKNOWN                                 binary                      
@@ -1127,7 +1127,7 @@ proj-data                                                                     9.
 prometheus-client                                                             0.23.1                                  python                      
 propcache                                                                     0.4.1                                   python                      
 psmisc                                                                        23.7-2                                  deb                         
-psutil                                                                        7.1.1                                   python                      
+psutil                                                                        7.1.2                                   python                      
 publicsuffix                                                                  20250328.1952-0.1                       deb                         
 pulseaudio                                                                    17.0+dfsg1-2+b1                         deb                         
 pulseaudio-utils                                                              17.0+dfsg1-2+b1                         deb                         
