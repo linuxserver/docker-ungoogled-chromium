@@ -111,6 +111,7 @@ init_diagram: |
   "ungoogled-chromium:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "20.12.25:", desc: "Add Wayland init logic."}
   - {date: "27.09.25:", desc: "Multi arch arm64 support added."}
   - {date: "22.09.25:", desc: "Rebase to Debian Trixie."}
   - {date: "12.07.25:", desc: "Rebase to Selkies, HTTPS IS NOW REQUIRED."}
