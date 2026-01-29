@@ -27,7 +27,7 @@ bsdutils                                                                      1:
 ca-certificates                                                               20250419                                deb                         
 catatonit                                                                     0.2.1-2+b7                              deb                         
 cffi                                                                          2.0.0                                   python                      
-chrome                                                                        144.0.7559.96                           binary                      
+chrome                                                                        144.0.7559.109                          binary                      
 cli                                                                           UNKNOWN                                 binary                      
 cli-32                                                                        UNKNOWN                                 binary                      
 cli-64                                                                        UNKNOWN                                 binary                      
