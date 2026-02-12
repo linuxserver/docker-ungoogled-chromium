@@ -27,7 +27,7 @@ bsdutils                                                                      1:
 ca-certificates                                                               20250419                                deb                         
 catatonit                                                                     0.2.1-2+b7                              deb                         
 cffi                                                                          2.0.0                                   python                      
-chrome                                                                        144.0.7559.132                          binary                      
+chrome                                                                        145.0.7632.45                           binary                      
 cli                                                                           UNKNOWN                                 binary                      
 cli-32                                                                        UNKNOWN                                 binary                      
 cli-64                                                                        UNKNOWN                                 binary                      
@@ -947,7 +947,7 @@ libpolkit-gobject-1-0                                                         12
 libpolkit-qt5-1-1                                                             0.200.0-4+b1                            deb                         
 libpoppler-glib8t64                                                           25.03.0-5+deb13u2                       deb                         
 libpoppler147                                                                 25.03.0-5+deb13u2                       deb                         
-libpq5                                                                        17.7-0+deb13u1                          deb                         
+libpq5                                                                        17.8-0+deb13u1                          deb                         
 libproc2-0                                                                    2:4.0.4-9                               deb                         
 libproj25                                                                     9.6.0-1                                 deb                         
 libpsl5t64                                                                    0.21.2-1.1+b1                           deb                         
