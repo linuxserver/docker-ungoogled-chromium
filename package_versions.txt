@@ -892,7 +892,7 @@ libnpth0t64                                                                   1.
 libnsl2                                                                       1.3.0-3+b3                             deb                         
 libnspr4                                                                      2:4.36-1                               deb                         
 libnss-systemd                                                                257.9-1~deb13u1                        deb                         
-libnss3                                                                       2:3.110-1                              deb                         
+libnss3                                                                       2:3.110-1+deb13u1                      deb                         
 libntfs-3g89t64                                                               1:2022.10.3-5                          deb                         
 libnuma1                                                                      2.0.19-1                               deb                         
 libnvidia-egl-wayland1                                                        1:1.1.18-1                             deb                         
