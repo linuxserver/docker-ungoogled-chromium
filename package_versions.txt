@@ -754,7 +754,7 @@ libgcc-14-dev                                                                 14
 libgcc-s1                                                                     14.2.0-19                              deb                         
 libgck-2-2                                                                    4.4.0.1-3                              deb                         
 libgcr-4-4                                                                    4.4.0.1-3                              deb                         
-libgcrypt20                                                                   1.11.0-7                               deb                         
+libgcrypt20                                                                   1.11.0-7+deb13u1                       deb                         
 libgdal36                                                                     3.10.3+dfsg-1                          deb                         
 libgdbm-compat4t64                                                            1.24-2                                 deb                         
 libgdbm6t64                                                                   1.24-2                                 deb                         
