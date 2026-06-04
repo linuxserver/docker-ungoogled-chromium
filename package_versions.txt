@@ -3,7 +3,7 @@ adduser                                                                       3.
 adwaita-icon-theme                                                            48.1-1                                 deb                         
 aiofiles                                                                      25.1.0                                 python                      
 aiohappyeyeballs                                                              2.6.2                                  python                      
-aiohttp                                                                       3.13.5                                 python                      
+aiohttp                                                                       3.14.0                                 python                      
 aioice                                                                        0.10.2                                 python                      
 aiosignal                                                                     1.4.0                                  python                      
 apt                                                                           3.0.3                                  deb                         
@@ -28,7 +28,7 @@ bsdutils                                                                      1:
 ca-certificates                                                               20250419                               deb                         
 catatonit                                                                     0.2.1-2+b13                            deb                         
 cffi                                                                          2.0.0                                  python                      
-chrome                                                                        148.0.7778.215                         binary                      
+chrome                                                                        149.0.7827.53                          binary                      
 cli                                                                           UNKNOWN                                binary                      
 cli-32                                                                        UNKNOWN                                binary                      
 cli-64                                                                        UNKNOWN                                binary                      
@@ -1190,7 +1190,7 @@ perl-modules-5.40                                                             5.
 pillow                                                                        12.2.0                                 python                      
 pinentry-curses                                                               1.3.1-2                                deb                         
 pip                                                                           25.1.1                                 python                      
-pixelflux                                                                     1.6.3                                  python                      
+pixelflux                                                                     1.6.4                                  python                      
 platformdirs                                                                  4.4.0                                  python                      
 polkitd                                                                       126-2                                  deb                         
 poppler-data                                                                  0.4.12-1                               deb                         
