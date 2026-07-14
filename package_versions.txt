@@ -845,7 +845,7 @@ liblsan0                                                                      14
 liblsof0                                                                      4.99.4+dfsg-2                          deb                         
 libltdl7                                                                      2.5.4-4                                deb                         
 liblz4-1                                                                      1.10.0-4                               deb                         
-liblzma5                                                                      5.8.1-1                                deb                         
+liblzma5                                                                      5.8.1-1+deb13u1                        deb                         
 libmagic-mgc                                                                  1:5.46-5                               deb                         
 libmagic1t64                                                                  1:5.46-5                               deb                         
 libmariadb3                                                                   1:11.8.6-0+deb13u1                     deb                         
@@ -877,7 +877,7 @@ libnpth0t64                                                                   1.
 libnsl2                                                                       1.3.0-3+b3                             deb                         
 libnspr4                                                                      2:4.36-1                               deb                         
 libnss-systemd                                                                257.13-1~deb13u1                       deb                         
-libnss3                                                                       2:3.110-1+deb13u2                      deb                         
+libnss3                                                                       2:3.110-1+deb13u3                      deb                         
 libntfs-3g89t64                                                               1:2022.10.3-5+deb13u1                  deb                         
 libnuma1                                                                      2.0.19-1                               deb                         
 libnvidia-egl-wayland1                                                        1:1.1.18-1                             deb                         
@@ -921,8 +921,8 @@ libpng16-16t64                                                                1.
 libpolkit-agent-1-0                                                           126-2                                  deb                         
 libpolkit-gobject-1-0                                                         126-2                                  deb                         
 libpolkit-qt5-1-1                                                             0.200.0-4+b1                           deb                         
-libpoppler-glib8t64                                                           25.03.0-5+deb13u3                      deb                         
-libpoppler147                                                                 25.03.0-5+deb13u3                      deb                         
+libpoppler-glib8t64                                                           25.03.0-5+deb13u4                      deb                         
+libpoppler147                                                                 25.03.0-5+deb13u4                      deb                         
 libpq5                                                                        17.10-0+deb13u1                        deb                         
 libproc2-0                                                                    2:4.0.4-9                              deb                         
 libproj25                                                                     9.6.0-1                                deb                         
@@ -1291,7 +1291,7 @@ xterm                                                                         39
 xutils                                                                        1:7.7+24+deb13u1                       deb                         
 xvfb                                                                          2:21.1.16-1.3+deb13u3                  deb                         
 xwayland                                                                      2:24.1.6-1                             deb                         
-xz-utils                                                                      5.8.1-1                                deb                         
+xz-utils                                                                      5.8.1-1+deb13u1                        deb                         
 yarl                                                                          1.24.2                                 python                      
 zipp                                                                          3.23.0                                 python                      
 zlib1g                                                                        1:1.3.dfsg+really1.3.1-1+b1            deb                         
