@@ -33,7 +33,7 @@ ca-certificates                                                               20
 catatonit                                                                     0.2.1-2+b13                             deb                         
 certifi                                                                       2026.7.22                               python                      
 cffi                                                                          2.1.1                                   python                      
-chrome                                                                        151.0.7922.75                           binary                      
+chrome                                                                        151.0.7922.108                          binary                      
 cli                                                                           UNKNOWN                                 binary                      
 cli-32                                                                        UNKNOWN                                 binary                      
 cli-64                                                                        UNKNOWN                                 binary                      
@@ -789,9 +789,9 @@ libharfbuzz0b                                                                 10
 libhdf4-0-alt                                                                 4.3.0-1+b1                              deb                         
 libhdf5-310                                                                   1.14.5+repack-3                         deb                         
 libhdf5-hl-310                                                                1.14.5+repack-3                         deb                         
-libheif-plugin-dav1d                                                          1.19.8-1                                deb                         
-libheif-plugin-libde265                                                       1.19.8-1                                deb                         
-libheif1                                                                      1.19.8-1                                deb                         
+libheif-plugin-dav1d                                                          1.19.8-1+deb13u1                        deb                         
+libheif-plugin-libde265                                                       1.19.8-1+deb13u1                        deb                         
+libheif1                                                                      1.19.8-1+deb13u1                        deb                         
 libhogweed6t64                                                                3.10.1-1                                deb                         
 libhwasan0                                                                    14.2.0-19                               deb                         
 libhwloc-plugins                                                              2.12.0-4                                deb                         
