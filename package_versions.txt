@@ -33,7 +33,7 @@ ca-certificates                                                               20
 catatonit                                                                     0.2.1-2+b13                             deb                         
 certifi                                                                       2026.7.22                               python                      
 cffi                                                                          2.1.1                                   python                      
-chrome                                                                        151.0.7922.169                          binary                      
+chrome                                                                        151.0.7922.173                          binary                      
 cli                                                                           UNKNOWN                                 binary                      
 cli-32                                                                        UNKNOWN                                 binary                      
 cli-64                                                                        UNKNOWN                                 binary                      
